@@ -1,13 +1,11 @@
 import React from 'react'
+import {Hero} from "@/section";
 
-const Home = () => {
-    return (
-        <div>
-            <h1 className={'text-3xl'}>Home</h1>
-            <p className={' text-6xl font-bold'}>Home</p>
-            <h1>This is a heading</h1>
-            <p>This is a paragraph to test the Satoshi font.</p>
-        </div>
+const Home = () => (
+
+        <>
+            <Hero/>
+        </>
     )
-}
+
 export default Home

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {Outfit } from "next/font/google";
 import "./globals.css";
 import {satoshi} from "@/lib/fonts";
+import Navbar from "@/components/Navbar";
 
 const outfitSans = Outfit({
   variable: "--font-outfit-sans",
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body
           className={`antialiased`}
       >
+      <Navbar/>
       {children}
       </body>
       </html>
